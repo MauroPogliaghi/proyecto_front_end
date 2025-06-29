@@ -1,0 +1,184 @@
+
+
+
+body{
+   background-color: chocolate;
+   margin:0;
+    padding: 0;
+    font-family:"Tagesschrift", system-ui; 
+    overflow-x: hidden;
+     
+}
+@media (min-width:600px) {
+    
+
+.navegador{
+    
+    background-color: brown;
+    height: 100px;
+    min-width: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}   
+    
+   
+}
+.registrarse{
+    width: 100px;
+    height: 30px;
+    background-color: chocolate;
+    border-color: black;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: solid;
+}
+ 
+    
+    
+
+#filtros{
+    background-color: chocolate;
+    border: solid black;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.titulo{
+    display: inline-block;
+    font-size:30px;
+    margin-left: 20px;
+}
+.busqueda{
+    margin-left: 50px;
+}
+
+
+h2{
+    color: black;
+    font-size: 50px;
+}
+.peliculas{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+    
+    
+
+    
+}
+
+
+h3{
+    color:white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.peli{
+    height: 400px;
+    width: 250px;
+    margin: 50px;
+    
+}
+.peli:hover{
+    transform: scale(1.2);
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+h1{
+    color: white;
+    text-decoration: underline;
+    display: inline;    
+}
+
+.series{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+
+.serie{
+    height: 400px;
+    width: 250px;
+    margin: 50px;
+}
+.serie:hover{
+    transform: scale(1.2);
+}
+.pie-pagina{
+    background-color: brown;
+    height: 100px;
+    min-width: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.instagram{
+    position: relative;
+    left: 5%;
+    
+}
+
+.ilogo{
+    width: 30px;
+    
+}
+.flogo{
+    width: 30px;
+}
+
+.facebook{
+    position: relative;
+    left: 6%;
+}
+.ilogo:hover{
+    transform:scale(1.2);
+}
+.flogo:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width: 599px) {
+ 
+    
+.navegador{
+    width: 100% ;
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+   justify-items: center;
+   align-items: center;
+   background-color: brown;
+
+}
+.navegador form{
+    grid-column: 1/3;
+} 
+.peliculas{
+    display: flex;
+    justify-content: center;
+    
+} 
+.series{
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+
+
+
+

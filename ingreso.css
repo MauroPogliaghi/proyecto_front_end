@@ -1,0 +1,61 @@
+body{
+    background-color: chocolate;
+     font-family:"Tagesschrift", system-ui;
+     
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: brown;
+    
+}
+div{
+    
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+.watsapp{
+    position: relative;
+    left: 35%;
+}
+
+.wlogo{
+    width: 50px;
+    
+}
+.watsapp :hover{
+    transform: scale(1.2);
+}
+
+.boton{
+    background-color: chocolate;
+    border-radius: 10px;
+    border: solid;
+}
+#contraseña{
+    background-color:chocolate;
+    border-radius: 10px;
+    border: solid;
+}
+#usuario{
+    background-color:chocolate;
+    border-radius: 10px;
+    border: solid;}
+.error input:not(.check,.boton),.error select{
+    border: 2px solid red;
+}
+
+.error-text{
+    color: red;
+    font-size:0.8rem }
