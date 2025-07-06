@@ -43,18 +43,23 @@ h1{
     border-radius: 10px;
     border: solid;
 }
-#contraseña{
+#password{
     background-color:chocolate;
     border-radius: 10px;
     border: solid;
 }
-#usuario{
+#email{
     background-color:chocolate;
     border-radius: 10px;
-    border: solid;}
-.error input:not(.check,.boton),.error select{
-    border: 2px solid red;
+    border: solid;
 }
+.formulario-contacto .formulario input.error {
+    border:2px solid red;
+    background-color: #ffe5e5;
+}
+
+
+
 
 .error-text{
     color: red;
