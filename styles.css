@@ -178,7 +178,36 @@ h1{
 
 }
 
+.recomendados {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+.recomendado {
+    margin: 50px;
+    width: 250px;
+    
+}
 
+.recomendado img {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 0; 
+    display: block;
+}
 
+.recomendado img:hover {
+    transform: scale(1.2);
+    z-index: 10;
+    position: relative; }
 
+.recomendado h3 {
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
